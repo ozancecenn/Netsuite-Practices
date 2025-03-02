@@ -27,4 +27,11 @@ Instructions
                 }
                 </style>
             ```
+
+*   You may exclude administrators from this setup. To do it, keep the default access level as **Edit** and add **None** access level for "Administrator" tole.
+    ![Admin Exclusion](../src/images/hro3.png)
+
 *   **Save the custom field, and apply it to the forms.**
+
+*   "Remove" option should not appear for non Administrator role.
+    ![Result](../src/images/hro4.png)
