@@ -1,6 +1,15 @@
 Instructions
 ----------------------
 
+* Right-click on the option you would like to hide, and "inspect" html element.
+
+    ![Option to hide](../src/images/hro2.png)
+
+    *   Get html ID. -> remove1href
+    ```
+    <td class="uir-list-row-cell listtext"><a class="dottedlink" id="remove1href" href="javascript:remove_media(12529);" onclick="setWindowChanged(window, false); ">Remove</a></td>
+    ```
+
 * **Create Custom Entity Field:**   Create a new custom entity field, and apply it on record types (in this case we are going to apply it to vendor).
 
     ![Custom Entity Field](../src/images/hro1.png)
@@ -13,18 +22,6 @@ Instructions
             ```
                 <style>
                 #remove1href{
-                visibility: hidden;
-                display: none;
-                }
-                #remove2href{
-                visibility: hidden;
-                display: none;
-                }
-                #remove3href{
-                visibility: hidden;
-                display: none;
-                }
-                #remove4href{
                 visibility: hidden;
                 display: none;
                 }
