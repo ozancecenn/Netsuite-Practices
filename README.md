@@ -1,8 +1,5 @@
 <<<<<<< HEAD
-# Netsuite-Practices
 
-hello world
-=======
 # Netsuite-Decent-Practices
 
 # author Ozan Cecen
